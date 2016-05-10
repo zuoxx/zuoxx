@@ -1,0 +1,36 @@
+.mui-logo{
+	text-align: center;
+	margin-top: 50px;
+}
+.mui-phone{
+	height: 45px;
+	width: 240px;
+}
+.mui-login{
+	text-align: center;
+	margin-top: 90px;
+}
+.mui-login p{
+	color: #000000;
+	font-size: 17px;
+	font-family: "微软雅黑";
+}
+.mui-login .num{
+	margin-right: 90px;
+}
+.mui-login .pass{
+	margin-right: 130px;
+}
+.mui-explian{
+	margin-left: 140px;
+	color: crimson;
+	font-family: "微软雅黑";
+}
+.mui-login button{
+	width: 120px;
+	height: 35px;
+	background-color: cornflowerblue;
+	color: white;
+	border-radius: 8px;
+	font-family: "微软雅黑";
+}
