@@ -14,15 +14,24 @@
 <body>
 	<div class="mui-content">
 	    <div class="mui-logo">星云<br />logo</div>
-	    <div class="mui-login">
-	    	<p class="num">账号 (必须为手机号)</p>
-	    	<input class="mui-phone" /><br /><br />
-	    	<p class="pass">输入动态密码</p>
-	    	<input class="mui-phone" /><br /><br />
-	    	<a class="mui-explian" href="registerExplian.html">账号注册说明</a><br /><br />
-	    	<button type="submit"  value="登录">登录</button><br /><br />
-	    	<button type="submit"  value="访客" onclick="javascript:window.location.href=''">访客</button>
-	    </div>
+	    <div class="mui-content-padded">
+	    	<label class="num">账号 （必须为手机号）</label>
+	    	<div class="mui-input-row" id="mui-state">
+				<input type="text" class="mui-input-clear" placeholder="" >
+				<button  onclick="javascript:window.location.href=''">发送动态密码</button>
+			</div>
+			<label class="pass">输入动态密码</label>
+	    	<div class="mui-input-row">
+				<input type="text" class="mui-input-clear" placeholder="" >
+			</div>
+			<a class="mui-explian" href="registerExplian.html">账号注册说明</a><br /><br />
+			<div class="mui-content-padded mui-content-paddeds">
+			<button type="submit" class="mui-btn mui-btn-primary" id="login"  value="登录">登录</button><br /><br />
+	    	<button type="submit" class="mui-btn mui-btn-primary" value="访客" onclick="javascript:window.location.href=''">访客</button>
+			</div>
+			
+			</div>
+	    
 	</div>
 </body>
 </html>

@@ -1,36 +1,63 @@
+.mui-content{
+	height: 100%;
+	width: auto;
+}
 .mui-logo{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 25%;
 }
-.mui-phone{
-	height: 45px;
-	width: 240px;
+#login{
+	margin-top: 10%;
 }
-.mui-login{
+.mui-input-row{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.mui-content-padded{
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 20%;
 }
 .mui-login p{
 	color: #000000;
 	font-size: 17px;
 	font-family: "微软雅黑";
 }
-.mui-login .num{
-	margin-right: 90px;
+label{
+	float: left;
+	margin-left: 10%;
 }
-.mui-login .pass{
-	margin-right: 130px;
+.mui-content-paddeds{
+	margin-top: -2%;
+	margin-left: -10px;
+}
+#mui-state{
+	position: relative;
+}
+#mui-state button{
+	position: absolute;
+	top: 3px;
+	left: 125px;
 }
 .mui-explian{
-	margin-left: 140px;
+	margin-left: 130px;
 	color: crimson;
 	font-family: "微软雅黑";
 }
-.mui-login button{
+.mui-btn{
 	width: 120px;
 	height: 35px;
 	background-color: cornflowerblue;
+	border: cornflowerblue;
 	color: white;
 	border-radius: 8px;
 	font-family: "微软雅黑";
+	margin-left: 7%;
+}
+button{
+		width: 110px;
+		height: 35px;
+    	left:20px;
+    	color:#fff;
+    	background-color:#ff7043;
+    	border-color:#f4511e;
 }
